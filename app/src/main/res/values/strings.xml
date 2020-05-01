@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Localization</string>
+
+
+    <!-- Title for the screen -->
+    <string name="title_select_characteristics">Choose your avatar\'s characteristics</string>
+
+    <!-- Title labels for each section for each attribute of the avatar. Shown alongside Spinners. -->
+    <string name="label_hair">Hair colour</string>
+    <string name="label_top">Top</string>
+    <string name="label_bottom">Bottom</string>
+    <string name="label_shoes">Shoes</string>
+
+    <!-- The action for sharing the avatar. Shown on a button. -->
+    <string name="share">Share</string>
+    <!-- The text shared to describe the avatar. -->
+    <string name="share_text">I just generated a cool character with %1$s hair, wearing a %2$s, %3$s and %4$s!</string>
+
+    <!-- Hair colour options for the avatar. Displayed as spinner drop down items. -->
+    <string name="hair_blond">Blond</string>
+    <string name="hair_brown">Brown</string>
+    <string name="hair_red">Red</string>
+
+    <string-array name="hair_array">
+        <item>@string/hair_blond</item>
+        <item>@string/hair_brown</item>
+        <item>@string/hair_red</item>
+    </string-array>
+
+    <!-- Clothing options for the top half of the avatar. Displayed as spinner drop down items. -->
+    <string name="top_t_shirt">T-Shirt</string>
+    <string name="top_sweater">Sweater</string>
+    <string name="top_tank_top">Tank top</string>
+
+    <string-array name="top_array">
+        <item>@string/top_t_shirt</item>
+        <item>@string/top_sweater</item>
+        <item>@string/top_tank_top</item>
+    </string-array>
+
+    <!-- Clothing options for the bottom half of the avatar. Displayed as spinner drop down items. -->
+    <string name="bottom_pants">Pants</string>
+    <string name="bottom_shorts">Shorts</string>
+    <string name="bottom_skirt">Skirt</string>
+
+    <string-array name="bottom_array">
+        <item>@string/bottom_pants</item>
+        <item>@string/bottom_shorts</item>
+        <item>@string/bottom_skirt</item>
+    </string-array>
+
+    <!-- Shoe options for the avatar. Displayed as spinner drop down items. -->
+    <string name="shoes_sneakers">Sneakers</string>
+    <string name="shoes_boots">Boots</string>
+    <string name="shoes_flip_flops">Flip-flops</string>
+
+    <string-array name="shoes_array">
+        <item>@string/shoes_sneakers</item>
+        <item>@string/shoes_boots</item>
+        <item>@string/shoes_flip_flops</item>
+    </string-array>
+</resources>
